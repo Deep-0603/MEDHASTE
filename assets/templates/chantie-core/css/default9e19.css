@@ -6,7 +6,7 @@ body {
     height: 100%;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(238, 236, 236);
+    background-color: rgb(244,253,254);
 }
 .page-content {
     flex: 1 0 auto;
@@ -15,9 +15,12 @@ footer {
     flex-shrink: 0;
 }
 
-
 .mailist-box .form-control::placeholder,
-.search-form .form-control::placeholder {
+.search-form 
+{
+    border-radius: 25px;
+}
+.form-control::placeholder {
     color: #000;
     opacity: 1;
 }
@@ -114,10 +117,12 @@ div.searchlight-balloon {
     font-size: 13px;
     height: 36px;
     padding: 7px 12px;
+    border-radius: 10px;
 }
 .form-control.search-text {
     border: 1px solid #cecece;
     box-shadow: none;
+    border-radius: 10px;
 }
 
 .btn {
@@ -125,6 +130,7 @@ div.searchlight-balloon {
     padding: 8px 12px;
     font-weight: 600;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 .btn-default,
 .btn-primary:focus, 
@@ -132,6 +138,7 @@ div.searchlight-balloon {
     border-color: #f08833;
     background-color: #fff;
     color: #000;
+    border-radius: 10px;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -140,19 +147,22 @@ div.searchlight-balloon {
     color: #fff;
     background-color: #f08833;
     border-color: #f08833;
+    border-radius: 10px;
 }
 .btn-default.btn-inverse,
 .btn-primary {
     color: #fff;
-    background-color: #f08833;
-    border-color: #f08833;
+    background-color: rgb(5,166,194);
+    border-color: rgb(5,166,194);
+    border-radius: 10px;
 }
 .btn-default.btn-inverse:hover,
 .btn-primary:hover {
     color: #fff;
-    background-color: #f08833;
-    border-color: #f08833;
+    background-color: rgb(5,166,194);
+    border-color: rgb(5,166,194);
     opacity: 0.8;
+    border-radius: 10px;
 }
 .nav-cat-menu {
     padding-top: 20px;
@@ -221,6 +231,7 @@ div.searchlight-balloon {
         border: 0;
         -webkit-box-shadow: none;
         box-shadow: none;
+        border-radius: 10px;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #9d9d9d;
@@ -253,7 +264,7 @@ div.searchlight-balloon {
     opacity: 0.6;
 }
 .top-nav {
-    background: #4da427;
+    background: rgb(59,170,142);
     padding: 10px 0;
 }
 .top-nav ul {
@@ -296,12 +307,16 @@ div.searchlight-balloon {
 }
 .search-form-col {
     padding-top: 20px;
+    border-radius: 25px;
 }
 .searchBox {
     padding: 0;
+    border-radius: 10px;
+    
 }
 .search-form {
     position: relative;
+    border-radius: 10px;
 }
 .search-form .search-text {
     padding: 9px 62px 9px 12px;
@@ -318,6 +333,7 @@ div.searchlight-balloon {
     color: #000;
     background: transparent;
     border: none;
+    border-radius: 10px;
 }
 
 
@@ -369,9 +385,9 @@ span.cart-count {
     font-weight: 500;
 }
 .site-footer {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 55px 0 0;
-    color: #fff;
+    color: white;
     font-family: 'Poppins', sans-serif;
     position : relative;
     
@@ -442,16 +458,16 @@ ul.extrapages li a {
     color: #fff;
     float: left;
     box-shadow: none;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 42px;
 }
 .mailinglist-submit {
-    background-color: #f08833;
+    background-color: rgb(59,170,142);
     color: #fff !important;
     border-color: #fff !important;
     float: right;
     width: 90px;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 42px;
 }
 .btn-default.mailinglist-submit:hover, 
@@ -510,7 +526,7 @@ ul.social-icons li.social-icons-label {
 }
 .social-icons li a {
     color: #fff;
-    background-color: #f08833;
+    background-color: rgb(59,170,142);
     width: 23px;
     height: 23px;
     line-height: 23px;
@@ -550,7 +566,7 @@ ul.social-icons li.social-icons-label {
     color: #000;
 }
 
-.product-items .product-item .name,
+.product-item .name,
 .product-items .product-item .price,
 .product-items .product-item .status,
 .product-items .product-item .reviews,
@@ -603,8 +619,8 @@ span.freeshipping {
     right: 0;
     bottom: 0;
     margin: auto;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 100px;
+    max-width: 100px;
 }
 .product-item .action .btn {
     min-width: 159px;
@@ -622,18 +638,17 @@ span.freeshipping {
 ** Homepage
 */
 .products-section {
-    background-color: rgb(238, 236, 236);
+    background-color: rgb(244,253,254);
     padding: 30px 0;
 }
 
 .products-section h2 {
-    font-size: 28px;
+    font-size: 18px;
     line-height: 1;
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 10px;
     margin-left: auto;
-    border: 1px solid #4da427;
     position: relative;
     text-align: center;
     padding: 12px;
@@ -678,7 +693,7 @@ span.freeshipping {
 }
 .extrapages-shower a {
     display: block;
-    background-color: #f08833;
+    background-color: rgb(59,170,142);
     color: #fff;
     padding: 10px 18px;
     text-decoration: none !important;
@@ -696,10 +711,13 @@ span.freeshipping {
     .mailinglist-input.form-control {
         max-width: 100%;
         width: 100%;
+        border : 2px;
+        border-color: rgba(0,0,0,0.5);
     }
     .search-form-col.p-0 {
         padding-left: 15px;
         padding-right: 15px;
+        border-radius: 10px;
     }
     .navbar-inverse .navbar-nav > li > a {
         font-size: 14px;
@@ -719,6 +737,8 @@ span.freeshipping {
         width: 100%;
         max-width: 320px;
         margin: 0 auto;
+        border : 2px;
+        border-color: rgba(0,0,0,0.5);
     }
     .footer-social {
         text-align: center;
@@ -730,6 +750,7 @@ span.freeshipping {
     }
     .search-form-col {
         padding-top: 0px;
+        border-radius: 10px;
     }
     .logo {
         text-align: center;
@@ -740,9 +761,11 @@ span.freeshipping {
     }
     .searchBox {
         padding: 10px 0;
+        border-radius: 10px;
     }
     .search-form-col {
         clear: both;
+        border-radius : 10px;
     }
     .flex-direction-nav a:before {
         font-size: 24px;
@@ -758,6 +781,8 @@ span.freeshipping {
     }
     .mailinglist-input.form-control {
         max-width: 100%;
+        border : 2px;
+        border-color: rgba(0,0,0,0.5);
     }
     .social-icons li a {
         width: 24px;
@@ -791,8 +816,30 @@ span.freeshipping {
     .product-items.product-items-3 .product-item,
     .product-items.product-items-4 .product-item,
     .product-items.product-items-5 .product-item,
-    .product-items.product-items-6 .product-item {
+    .product-items.product-items-6 .product-item,
+    .product-items.product-items-7 .product-item,
+    .product-items.product-items-8 .product-item,
+    .product-items.product-items-9 .product-item,
+    .product-items.product-items-10 .product-item,
+    .product-items.product-items-11 .product-item,
+    .product-items.product-items-12 .product-item {
         max-width: 270px;
+    }
+}
+@media(max-height: 567px) {
+    .product-items.product-items-1 .product-item,
+    .product-items.product-items-2 .product-item,
+    .product-items.product-items-3 .product-item,
+    .product-items.product-items-4 .product-item,
+    .product-items.product-items-5 .product-item,
+    .product-items.product-items-6 .product-item,
+    .product-items.product-items-7 .product-item,
+    .product-items.product-items-8 .product-item,
+    .product-items.product-items-9 .product-item,
+    .product-items.product-items-10 .product-item,
+    .product-items.product-items-11 .product-item,
+    .product-items.product-items-12 .product-item {
+        max-height: 100px;
     }
 }
 
