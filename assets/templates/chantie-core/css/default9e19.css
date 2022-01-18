@@ -315,7 +315,7 @@ div.searchlight-balloon {
     
 }
 .search-form {
-    position: relative;
+    position: right;
     border-radius: 10px;
 }
 .search-form .search-text {
