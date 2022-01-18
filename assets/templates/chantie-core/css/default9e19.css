@@ -247,7 +247,7 @@ div.searchlight-balloon {
 ** Template code
 */
 .logo {
-    height: 86px;
+    height: 70px;
     position: relative;
     overflow: hidden;
 }
@@ -264,7 +264,7 @@ div.searchlight-balloon {
     opacity: 0.6;
 }
 .top-nav {
-    background: rgb(59,170,142);
+    background: rgb(44,185,169);
     padding: 10px 0;
 }
 .top-nav ul {
@@ -462,7 +462,7 @@ ul.extrapages li a {
     height: 42px;
 }
 .mailinglist-submit {
-    background-color: rgb(59,170,142);
+    background-color: rgb(44,185,169);
     color: #fff !important;
     border-color: #fff !important;
     float: right;
@@ -526,7 +526,7 @@ ul.social-icons li.social-icons-label {
 }
 .social-icons li a {
     color: #fff;
-    background-color: rgb(59,170,142);
+    background-color: rgb(44,185,169);
     width: 23px;
     height: 23px;
     line-height: 23px;
@@ -693,7 +693,7 @@ span.freeshipping {
 }
 .extrapages-shower a {
     display: block;
-    background-color: rgb(59,170,142);
+    background-color: rgb(44,185,169);
     color: #fff;
     padding: 10px 18px;
     text-decoration: none !important;
@@ -753,11 +753,13 @@ span.freeshipping {
         border-radius: 10px;
     }
     .logo {
-        text-align: center;
+        text-align: right;
+        align-items: right;
         height: auto;
     }
     .logo img {
         position: static;
+        align-items: right;
     }
     .searchBox {
         padding: 10px 0;
